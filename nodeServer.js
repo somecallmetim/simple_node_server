@@ -9,8 +9,6 @@ const fs = require('fs');
         // there are separate modules called 'request' and 'response'
 
 const server = http.createServer((req, res) =>{
-    // console.log(req);
-    // console.log(req.url);
 
     if(req.url === '/'){
         // writeHead teaks 2 args, status code & object for the mime-type
